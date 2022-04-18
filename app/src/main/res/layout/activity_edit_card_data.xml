@@ -21,4 +21,46 @@
         android:hint="Nazwa karty"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="61dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="148dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Waluta (trzyliterowy kod)" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/min_num_of_payments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minimalna liczba płatności"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/min_value_to_spend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minimalna kwota do wydania"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="393dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/exp_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Koniec okresu rozliczeniowego (wpisz -1 jeśli koniec miesiąca)" />
+    </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

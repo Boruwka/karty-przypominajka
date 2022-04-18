@@ -10,7 +10,8 @@ import android.widget.EditText;
 public class EditCardData extends AppCompatActivity {
 
     @Override
-    void onCreate(Bundle savedInstanceState, Card card) {
+    void onCreate(Bundle savedInstanceState) {
+        // card bierzemy tymi extrasami
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_card_data);
 

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KartyPrzypominajka">
         <activity
+            android:name=".PaymentView"
+            android:exported="false" />
+        <activity
+            android:name=".CardView"
+            android:exported="false" />
+        <activity
             android:name=".EditPayment"
             android:exported="false" />
         <activity
