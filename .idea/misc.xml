@@ -5,9 +5,11 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21" />
         <entry key="app/src/main/res/layout/activity_adding_cards.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_card_view.xml" value="0.26614583333333336" />
         <entry key="app/src/main/res/layout/activity_edit_card_data.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_edit_payment.xml" value="0.28020833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28020833333333334" />
+        <entry key="app/src/main/res/layout/activity_payment_view.xml" value="0.26614583333333336" />
       </map>
     </option>
   </component>
